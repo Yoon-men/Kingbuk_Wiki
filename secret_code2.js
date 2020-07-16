@@ -4,16 +4,6 @@ function 비밀코드2(){
     }
 
     else {
-        alert('오류');
+        alert('잘못된 코드입니다.');
     }
 }
-/*
-function func_confirm() {
-
-    if (confirm('준달위키 만들면 좋을 것 같아요?')) {
-        alert('ㅇㅋ');
-    } else {
-        alert('응 알았어');
-    }
-}
- */
