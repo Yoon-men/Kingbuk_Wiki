@@ -5,7 +5,7 @@ function 비밀코드1(){
     }
 
     else {
-        alert('오류');
+        alert('잘못된 코드입니다.');
     }
 }
 
