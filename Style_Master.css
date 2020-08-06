@@ -1,0 +1,57 @@
+#sangdan{
+    text-align: center;
+}
+.white-box {
+    padding-top: 90px; padding-bottom: 90px;
+    padding-left: 70px; padding-right: 70px;
+    z-index: 1;
+}
+
+.white-box {
+    padding-top: 90px; padding-bottom: 90px;
+    padding-left: 70px; padding-right: 70px;
+    content: "";
+    border: 5px solid #000000;
+    background-color: white;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+img.aligleft {
+    float: left; margin: 0 0 1rem 1rem;
+    width: 6rem;
+    height: auto;
+}
+
+#red {
+    color:red;
+}
+
+#font1 {
+    font-size: 1.2rem;
+    font-family: 'Do Hyeon', sans-serif;
+}
+#font2 {
+    font-size: 3rem;
+    font-family: 'Bangers', cursive;
+}
+#font3 {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+#inyong {
+    background-color: powderblue;
+}
+#malbbal {
+    border:5px solid indianred;
+    text-align: center;
+}
+#gamjaral {
+    border:5px solid cornflowerblue;
+    text-align: center;
+}
+
+#dj {
+    border:5px solid blue;
+    text-align: center;
+}
