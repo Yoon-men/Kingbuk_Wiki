@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
     <script src="secret_code.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>킹북위키</title>
@@ -11,14 +12,11 @@
 <body>
 <!-- --------------------------------------------------- -->
 <section class="white-box">
-    <h1 id="font2">Kingbuk wiki</h1><br>
+    <h1>킹북위키</h1><br>
     비밀코드 입력을 통해 특별한 페이지로 이동할 수 있습니다.<br><br>
-    <input type="button" onclick="비밀코드1()" value="비밀코드1">
-    <input type="button" onclick="비밀코드2()" value="비밀코드2">
-    <input type="button" onclick="비밀코드3()" value="비밀코드3">
-    <input type="button" onclick="비밀코드4()" value="비밀코드4"><br><br>
-    <input type="button" onclick="킹북영화제()" value="킹북영화제"><br>
-    <a target="_blank" href="http://www.gangbuk.hs.kr/index.do" title="강북고등학교 홈페이지">강북고등학교 홈페이지</a>
+    <input type="text" id="secretcord" name="비밀코드" placeholder="비밀코드" maxlength="8">
+    <button type="button" id="open" name="열기" onclick="pageOpen()">이동하기</button><br><br>
+
 
 </section>
 <!-- --------------------------------------------------- -->
