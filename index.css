@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic&family=Neucha&family=Song+Myung&display=swap');
 
+@-webkit-keyframes Gradients {
+    0%{background-position:left}
+    100%{background-position:right}
+}
+
 body {
     position: absolute;
     top:50%;
@@ -33,13 +38,17 @@ h1{
     font-weight: normal;
     text-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
     font-family: 'Black Han Sans', sans-serif;
-    background: linear-gradient(to right, #3859ff, #38fdff);
+    background: linear-gradient(to right, #3859ff, #38fdff, #3859ff, #38fdff);
+    background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     border-bottom: 1px solid gray;
     margin: 0px;
     padding: 20px;
+    transition: 0.6s ease;
+    animation: Gradients 5s infinite;
+    animation-direction: initial;
 }
 
 .white-box input[type = "text"]{
