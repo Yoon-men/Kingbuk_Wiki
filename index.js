@@ -24,11 +24,6 @@ function pageOpen() {
         alert("갓상준위키는 아직 준비 중입니다.")
     }
 
-    if (objName.value == "부엉이에듀"){
-        alert("부엉이에듀로 이동합니다.")
-        open('https://www.youtube.com/channel/UCYkuW0ZhvRvvLOmo8J3uTPQ')
-    }
-
     else {
         alert("올바른 코드를 입력해주세요.")
     }
